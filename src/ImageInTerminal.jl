@@ -9,10 +9,12 @@ export
     colorant2ansi,
     imshow,
     imshow256,
-    imshow24bit
+    imshow24bit,
+    dither
 
 include("colorant2ansi.jl")
 include("encodeimg.jl")
+include("dithering.jl")
 include("imshow.jl")
 
 # -------------------------------------------------------------------
